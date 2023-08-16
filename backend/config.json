@@ -1,0 +1,32 @@
+{
+  "server": {
+    "http_port": ":8888",
+    "ice_servers": ["stun:stun.l.google.com:19302"]
+  },
+  "streams": {
+    "INSTAR_IN-6014_HD": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv001.stream"
+    },
+    "MICRO": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv002.stream"
+    },
+    "INSTAR_8015_FHD": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv003.stream"
+    },
+    "INSTAR_9020_FHD": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv004.stream"
+    },
+    "INSTAR_IN-7011_HD": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv005.stream"
+    },
+    "H264_PCMALAW": {
+      "on_demand": true,
+      "url": "rtsp://210.99.70.120:1935/live/cctv006.stream"
+    }
+  }
+}
